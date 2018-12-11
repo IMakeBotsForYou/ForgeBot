@@ -125,9 +125,8 @@ public class Request {
 		String[] out;
 
 		json = json.getAsJsonObject("Response");
-		json = json.getAsJsonObject("profile");
-		json = json.getAsJsonObject("data");
-		jray = json.getAsJsonArray("characterIds");
+		jray = json.getAsJsonArray("characters");
+		json = json.getAsJsonObject("characterId");
 
 		// Conver JsonArray to String output
 		out = new String[jray.size()];
