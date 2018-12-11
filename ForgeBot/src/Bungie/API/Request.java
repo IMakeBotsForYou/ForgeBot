@@ -138,7 +138,21 @@ public class Request {
 		}
 		return out;
 	}
+//
+//put this where ever you need it	
+//	
+	
+//	for(int i = 0; i<characters.length; i++){
+//		boolean active = ;
+////	if(characters[i].deleted = false){
+///		active = false;
+//	} else {active = true;)
+		//system.out.println(characters[i].characterId);
 
+}
+	
+	
+	
 	private static JsonObject get(String url) throws IOException {
 		URL obj = new URL(url);
 		HttpURLConnection con = (HttpURLConnection) obj.openConnection();
