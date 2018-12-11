@@ -119,8 +119,7 @@ public class Request {
 
 	private static String[] getCharacterIDs(String memberID) throws IOException {
 		// Init
-	        ///Platform/Destiny2/4/Account/4611686018471593174/Stats/
-		String url = domainBase + "/Platform/Destiny2/4/profile/" + memberID + "/?components=Profiles%2CCharacters";
+		String url = domainBase + "/Platform/Destiny2/4/Account/" + memberID + "/Stats/";
 		JsonObject json = get(url);
 		JsonArray jray;
 		String[] out;
