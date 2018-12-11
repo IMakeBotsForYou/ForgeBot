@@ -38,7 +38,7 @@ public class BotMain {
 
 	private static void startBot() throws IOException {
 
-		bot = createClient("NTE3ODY3MDg1NjI4NzAyNzIx.DvBJJQ.udbx3M1X5wPjAleNaP8NGu3mN4I", true);
+		bot = createClient(" PLACE TOKEN HERE ", true);
 		EventDispatcher dis = bot.getDispatcher();
 		dis.registerListener(new BotListener());
 
