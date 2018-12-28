@@ -147,7 +147,7 @@ public class Request {
 ////	if(characters[i].deleted = false){
 ///		active = false;
 //	} else {active = true;)
-		//system.out.println(characters[i].characterId);
+		//system.out.printl(Response.characters.characterId[0]);
 
 }
 	
